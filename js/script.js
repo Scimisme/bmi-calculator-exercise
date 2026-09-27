@@ -22,10 +22,13 @@ function beregnBMI() {
     if (bmi < 18.5) {
         // Skriv selv: log `Din BMI er ${bmi}. Det betyder undervægt.`
         console.log(`Din BMI er ${bmi}. Det betyder undervægt.`)
-    }
+
     // Skriv selv: tilføj en else if-gren, der tjekker om bmi er 18.5 eller derover, OG mindre end 25.
     // Log i så fald: `Din BMI er ${bmi}. Det betyder normalvægt.`
 
+        } else if (bmi >= 18.5 || bm <= 25) {
+        console.log(`Din BMI er ${bmi}. Det betyder normalvægt.`)
+    }
 
     // Skriv selv: tilføj en else if-gren, der tjekker om bmi er 25 eller derover, OG mindre end 30.
     // Log i så fald: `Din BMI er ${bmi}. Det betyder overvægt.`
