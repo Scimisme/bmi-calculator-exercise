@@ -1,5 +1,5 @@
 // Husk fra dag 1: skriv "use strict" herunder
-
+"use strict";
 
 // Eksempel: vi opretter funktionen beregnBMI - men parametrene skal du selv skrive.
 // Skriv selv: udfyld parentesen herunder med de to parametre weight og height
