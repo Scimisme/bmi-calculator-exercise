@@ -48,6 +48,10 @@ beregnBMI(70, 1.75);
 // Skriv selv: kald funktionen 2-3 gange mere med andre kombinationer af weight og height,
 // så du selv kan se de øvrige kategorier blive testet i konsollen.
 //
+beregnBMI(60, 1.68);
+beregnBMI(80, 1.72);
+beregnBMI(90, 1.59);
+
 // Eksempler på værdier, du kan bruge (vægt i kg, højde i meter):
 //   - vægt: 55, højde: 1.70  (giver undervægt)
 //   - vægt: 70, højde: 1.75  (giver normalvægt - allerede kaldt ovenfor)
