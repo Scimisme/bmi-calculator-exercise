@@ -39,8 +39,9 @@ function beregnBMI() {
 
     // Skriv selv: tilføj en sidste else-gren.
     // Log: `Din BMI er ${bmi}. Det betyder svær overvægt.`
-    
-
+    else {
+        console.log(`Din BMI er ${bmi}. Det betyder svær overvægt.`)
+    }
 }
 
 beregnBMI(70, 1.75);
